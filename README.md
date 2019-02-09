@@ -201,7 +201,7 @@ libraryDependencies ++= Seq(
 import slogging._
 
 // activate SLF4J backend
-LoggerConfig.factory = SLF4JFactory()
+LoggerConfig.factory = SLF4JLoggerFactory()
 ```
 
 ### Scala.js
